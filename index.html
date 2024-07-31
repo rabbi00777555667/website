@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="user-info"></div>
+    <button id="login-btn">Login with Google</button>
+    <button id="logout-btn" style="display: none;">Logout</button>
+
+    <form id="post-form" style="display: none;">
+        <textarea id="post-text" placeholder="What's on your mind?" required></textarea>
+        <input type="file" id="post-image">
+        <button type="submit">Post</button>
+    </form>
+
+    <div id="posts"></div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

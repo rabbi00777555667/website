@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user-info {
+    margin-top: 20px;
+}
+
+#login-btn, #logout-btn {
+    margin: 10px;
+}
+
+#post-form {
+    margin: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+#posts {
+    width: 100%;
+    max-width: 600px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-actions {
+    margin-top: 10px;
+}
+
+.like-btn, .comment-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.comment-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 110px);
+    margin-right: 10px;
+}
+
+.comment-list p {
+    margin: 5px 0;
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+}
